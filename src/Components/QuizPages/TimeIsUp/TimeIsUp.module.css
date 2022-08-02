@@ -1,0 +1,69 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #d4e4ef;
+    background: radial-gradient(ellipse at center, #d4e4ef 0%,#86aecc 100%);
+}
+
+.animation{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 20rems;
+}
+
+.pointsDiv{
+    display: flex;
+    align-items: center;
+}
+
+.pointsDiv p:nth-child(1){
+    margin-right: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(24, 23, 23);
+}
+
+.pointsDiv p:nth-child(2){
+    font-size: 3rem;
+    color: BC3A0B;
+    font-weight: bold;
+}
+
+.answerDiv{
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.answerDiv p:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(68, 67, 67);
+
+}
+
+.answerDiv p:nth-child(2){
+    color: green;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.buttonDiv button{
+    padding: 0.6rem 5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: #EA4335;
+    background-color: #c6dfd2;
+    border: 0.2rem solid #EA4335;
+    box-shadow: 0rem 0rem 0.6rem 0.2rem #f5beb9;
+}
+
+.buttonDiv button:hover{
+    background-color: #EA4335;
+    color: white;
+    transform: scale(1.04,1.08);
+    cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #b4ddb4;
+    background: radial-gradient(ellipse at center, #b4ddb4 0%,#83c783 17%,#52b152 33%,#008a00 67%,#005700 83%,#002400 100%);
+}
+
+.animation{
+    margin-top: 1rem;
+    width: 20rem;
+    height: 20rems;
+}
+
+.winner{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.winner h3{
+    font-size: 4rem;
+    font-weight: bold;
+    letter-spacing: 0.3rem;
+    color: #e500ecc2;
+    font-family: cursive;
+}
+
+.buttonDiv button{
+    padding: 0.6rem 5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: #ea5f35;
+    background-color: #c6dfd2;
+    border: 0.2rem solid #ea5f35;
+    box-shadow: 0rem 0rem 0.6rem 0.2rem #f5beb9;
+}
+
+.buttonDiv button:hover{
+    background-color: #ea5f35;
+    color: white;
+    transform: scale(1.04,1.08);
+    cursor: pointer;
+}

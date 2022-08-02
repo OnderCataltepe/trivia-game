@@ -1,0 +1,58 @@
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleDiv{
+    margin-top: 1rem;  
+}
+
+.titleDiv h3{
+    font-size: 4rem;
+    color: rgb(0, 163, 0);
+    text-shadow: 0.2rem 0.2rem white;
+    letter-spacing: 0.1rem;
+}
+
+.animation{
+    width: 20rem;
+    height: 20rems;
+}
+
+.pointsDiv{
+    margin-bottom: 2rem;
+}
+
+.pointsDiv p:nth-child(1){
+font-size: 2rem;
+font-weight: bold;
+color: green;
+}
+
+.pointsDiv p:nth-child(2){
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(245, 38, 38);
+    text-shadow: 0.2rem 0.2rem rgb(252, 190, 190);
+}
+
+.buttonDiv button{
+    padding: 0.6rem 3rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    color: green;
+    background-color: #c6dfd2;
+    border: 0.2rem solid green;
+    box-shadow: 0rem 0rem 0.6rem 0.2rem #8af176;
+}
+
+.buttonDiv button:hover{
+    background-color: green;
+    color: white;
+    transform: scale(1.04,1.08);
+    cursor: pointer;
+}
