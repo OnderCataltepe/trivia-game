@@ -13,8 +13,8 @@ Each category has 10 questions.
 
 ### Install dependencies
 
-npm install
+`npm install`
 
 ### Runs the app
 
-npm start
+`npm start`
