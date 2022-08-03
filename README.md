@@ -5,9 +5,9 @@ Multiple choice quiz game built with React.js(hooks and Context API). Questions 
 
 ## Features
 
-There are six categories and three difficulty levels.
-User has to answer the question in 15 seconds.
-Each category has 10 questions. 
+-There are six categories and three difficulty levels.
+-User has to answer the question in 15 seconds.
+-Each category has 10 questions. 
 
 ## Scripts
 
